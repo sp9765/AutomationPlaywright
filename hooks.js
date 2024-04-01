@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 let page;
-
+//playwright 
 test.beforeEach(async ({ browser }) => {
     page = await browser.newPage();
     await page.goto('https://www.demoblaze.com/index.html')
